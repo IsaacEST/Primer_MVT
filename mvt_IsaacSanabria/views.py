@@ -6,7 +6,7 @@ from datetime import datetime
 def family(request):
     list= List.objects.all()
     list_fam={"list":list}
-    mihtml= open(r"..\mvt_IsaacSanabria\mvt_IsaacSanabria\templates\family_list.html")
+    mihtml= open(r".\mvt_IsaacSanabria\templates\family_list.html")
     plantilla=Template(mihtml.read())
     mihtml.close()
     micontext= Context(list_fam)
