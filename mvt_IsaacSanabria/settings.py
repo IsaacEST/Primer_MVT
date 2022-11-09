@@ -55,7 +55,7 @@ ROOT_URLCONF = 'mvt_IsaacSanabria.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r"C:\Users\Administrator\Desktop\Curso_Python\desafio\mvt_IsaacSanabria\mvt_IsaacSanabria\templates"],
+        'DIRS': [r"..\mvt_IsaacSanabria\mvt_IsaacSanabria\templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
